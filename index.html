@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+</head>
+<style>
+    .imageone {
+        color: white;
+        width: 20px;
+        margin-top: 15px;
+    }
+
+    .imageClass {
+        width: 40%;
+    }
+
+    footer {
+        display: flex;
+        width:80%;
+        background-color: black;
+        flex-direction: column;
+        padding: 50px 100px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.8fr;
+        row-gap: 10px;
+        column-gap: 30px;
+        color: white;
+        justify-content: center;
+        color: gray;
+    }
+
+    .header {
+        font-size: 20px;
+        color: white;
+    }
+
+  
+
+    .grid2 {
+        display: grid;
+        column-gap: 20px;
+        align-content:start;
+        /* row-gap:10px; */
+        grid-template-columns: 20px 1fr;
+        font-size: 14px;
+        font-style: italic;
+    }
+    .grid3{
+        display:flex;
+        flex-wrap:wrap;
+        gap:5px;
+        align-content:flex-start;
+    }
+    .links{
+        display:flex;
+        color:white;
+    }
+
+</style>
+
+<body>
+    <footer>
+        <div class="container">
+            <p class="header">About Me</p>
+            <p class="header">Latest Tweet</p>
+            <p class="header">Instagram</p>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                </p>
+                <p style="color:white;">
+                    <img src="image.png" style="width:20px;"> 322323
+                </p>
+                <p style="color:white;">
+                    <img src="image.png" style="width:20px;"> email.com
+                </p>
+                
+            </div>
+            <div class="grid2">
+                <img src="image.png" class="imageone">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus</p>
+                <img src="image.png" class="imageone">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus</p>
+                <img src="image.png" class="imageone">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus</p>
+            </div>
+            <div class="grid3">
+                <img src="image.png" class="imageClass" />
+                <img src="image.png" class="imageClass" />
+                <img src="image.png" class="imageClass" />
+                <img src="image.png" class="imageClass" />
+            </div>
+        </div>
+        <div style="border-top:1px solid #ffffff80">&nbsp;</div>
+        <div class="links">
+            <div style="display:flex;gap:15px;">
+                <label> Home</label>
+                <label> About</label>
+                <label> Our Works</label>
+                <label> Services</label>
+                <label> Blog</label>
+                <label> Contacts</label>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
